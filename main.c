@@ -48,10 +48,11 @@ int main()
 //	list_for_each(iterator, &head) {
 	for (iterator = head.next; iterator != &head; iterator = iterator->next)
 	{
+		//list_entry(iterator, node);
 		tmp = (struct num*)( (char*) iterator - ((size_t) &((struct num*)0)->node) );
-		
 		printf("\n%lu\n", ((size_t) &((struct num*)0)->node));
-
+		
+		
 		printf("%d\n", tmp->number);
 	}
 
