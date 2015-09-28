@@ -18,5 +18,4 @@ When we get the address, we need do some subtraction to get the struct address w
 
 Above formula can get the offset of list_head in the struct you define.
 
-
-
+After the address we get in next minus the offset, we can get the correct address of our struct.
