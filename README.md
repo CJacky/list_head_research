@@ -14,7 +14,7 @@ I got it.
 The struct elements next and prev records the list_head address.
 When we get the address, we need do some subtraction to get the struct address we want.
 
-&((strcut <your struct name>\*)0)-><list_head name in struct>
+&((strcut \<your struct name\>\*)0)->\<list_head name in struct\>
 
 Above formula can get the offset of list_head in the struct you define.
 
