@@ -3,9 +3,6 @@
 Because I feel amazing about "struct list_head", I destructure the macro in list.h to research the list_head.
 
 I still don'h know why a user-define struct can minus a offset and then can get the struct.
-<<<<<<< HEAD
-=======
-
 
 
 ===============================================================================
@@ -23,4 +20,3 @@ When we get the address, we need do some subtraction to get the struct address w
 Above formula can get the offset of list_head in the struct you define.
 
 After the address we get in next minus the offset, we can get the correct address of our struct.
->>>>>>> origin/master
