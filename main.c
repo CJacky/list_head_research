@@ -73,8 +73,6 @@ int main()
 		//list_entry(iterator, node);
 		tmp = (struct num*)( (char*) iterator - ((size_t) &((struct num*)0)->node) );
 		printf("\n%lu\n", ((size_t) &((struct num*)0)->node));
-		
-		printf("%d\n", tmp->number);
 	}
 
 	return 0;
